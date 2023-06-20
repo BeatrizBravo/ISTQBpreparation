@@ -1,4 +1,5 @@
 **Content:**
+ <a id="x"></a>
  - [Introduction](#9)
  - [Testing levels](#2)
  - [Test Types](#3)
@@ -16,9 +17,9 @@ Testing as part of the overall software development process.
      
 <br>
 
-
-# Test Model 
  <a id="1"></a>
+# Test Model 
+
 
 |Test Model | Description | Advantages            | Disadvantages                 |Diagram|
 |-----------|-------------|-----------------------|-------------------------------|-------|
@@ -34,20 +35,29 @@ Testing as part of the overall software development process.
      alt="iterative-model"
      style=" margin-right: 10px;" /> -->
 
-# Testing levels
+[Back to content](#x)
+
  <a id="2"></a>
-|Testing Level|Definition|Testing Level2|Purpose|Preformed by|
-|:----|:----|:----|:----|:----|
-|Component Testing|The testing of individual components or modules of an application, typically performed by developers using unit testing frameworks.|Unit level|To detect and fix defects in code at an early stage in the development process.|developer|
-|Integration Testing|The testing of the interactions and interfaces between individual components or modules of an application, typically performed by developers or dedicated integration testers.|Integration level|To detect and fix defects in the interactions and interfaces between components before they are deployed to a production environment.|component integration by developer / system integration by tester (func or non-func)|
-|System Testing|The testing of the complete and integrated system, typically performed by dedicated testing teams.|System level|To test that the system meets all functional and non-functional requirements and that it behaves correctly under expected and unexpected conditions.|tester|
-|Acceptance Testing|The testing of the system by end users or stakeholders to determine whether or not it meets their business requirements and is fit for purpose.|User Acceptance level|To ensure that the system is ready for deployment to a production environment and meets the needs of the end users.|user/tester/customer|
+
+# Testing levels
+
+|Testing Level|Definition|Testing Level2|Purpose|Preformed by| |
+|:----|:----|:----|:----|:----|:----|
+|Component Testing|The testing of individual components or modules of an application, typically performed by developers using unit testing frameworks.|Unit level|To **detect** and **fix** defects in code at an early stage in the development process.|developer| Building confidence|
+|Integration Testing|The testing of the interactions and interfaces between individual components or modules of an application, typically performed by developers or dedicated integration testers.|Integration level|To **detect** and **fix** defects in the interactions and interfaces between components before they are deployed to a production environment.|component integration by developer / system integration by tester (func or non-func)|Building confidence|
+|System Testing|The testing of the complete and integrated system, typically performed by dedicated testing teams.|System level|To **find** **defect**, to test that the system meets all functional and non-functional requirements and that it behaves correctly under expected and unexpected conditions.|tester|Building confidence|
+|Acceptance Testing|The testing of the system by end users or stakeholders to determine whether or not it meets their business requirements and is fit for purpose.|User Acceptance level|To ensure that the system is ready for deployment to a production environment and meets the needs of the end users.|user/tester/customer|Establishes confidence|
 ![testing-level](https://www.softwaretestingclass.com/wp-content/uploads/2012/09/levels-of-testing.jpg "testing-level")
 
-# Test Types
+[Back to content](#x)
+
  <a id="3"></a>
 
-| Test Type | Definition | Category | Purpose |
+# Test Types
+Apply to every test level
+
+
+| Test Type | Definition | Characteristics | Purpose |
 |-----------|------------|----------|---------|
 | Unit testing | Testing of individual units or components of the application code | Functional testing | To ensure individual units are functioning properly |
 | Integration testing | Testing of integrated units or components of the application code | Functional testing | To ensure different modules work together as expected |
@@ -57,13 +67,17 @@ Testing as part of the overall software development process.
 | Security testing | Testing the application or system for security vulnerabilities | Non-functional testing | To ensure the system is protected from unauthorized access |
 | Usability testing | Testing the ease of use and user interface design of the system | Non-functional testing | To ensure the system is user-friendly |
 | White-box testing | Testing the internal workings of an application | White-box testing | To ensure all code paths have been tested |
-| Regression testing | Testing for changes or new additions to functionality do not break existing code | Testing after code has been changed | To ensure the stability of the system after changes |
+| Regression testing | Testing for changes or new additions to functionality do not break existing code | Testing after code has been changed | To ensure the stability of the system after changes <br> re-testing <br> regression testing [comparative](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/1-Fundamental.md#3)|
 ![testing-type](https://qph.cf2.quoracdn.net/main-qimg-ad4946a45fa55aa801f397b2009371cc "testing-type")
 
 
 
-# Questions 
+[Back to content](#x)
+
 <a id="4"></a>
+
+# Questions 
+
 |Life cycles questions |Answers|
 |:----|:----|
 |What is mean by verification?|Verification is the process of evaluating whether a system or component meets its specified requirements or not|

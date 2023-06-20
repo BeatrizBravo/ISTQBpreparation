@@ -12,9 +12,10 @@
  - -[Test activities of implementation and execution](#9)
 
 
+ <a id="1"></a>
 
 # Intro
- <a id="1"></a>
+
 It is true that people are fallible and can make mistakes. 
 ```
 Effect of an:
@@ -36,8 +37,11 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
-# Testing and debugging
+
 <a id="2"></a>
+
+# Testing and debugging
+
 
 |testing |debugging|
 |:----|:----|
@@ -60,8 +64,10 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
-# Regression and retesting
 <a id="3"></a>
+
+# Regression and retesting
+
 
 |REGRESSION|RETESTING|
 |:----|:----|
@@ -69,8 +75,10 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
-# Testing Principles
  <a id="4"></a>
+
+# Testing Principles
+
 
 |Testing Principles|Description|
 |:----|:----|
@@ -80,8 +88,10 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
+<a id="5"></a>
+
 # Entry Criteria and Exit Criteria
- <a id="5"></a>
+ 
 
 
 |Entry Criteria|Exit Criteria|
@@ -93,11 +103,15 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
-# Comparing test activities:
  <a id="6"></a>
 
+# Comparing test activities:
+
+
+<a id="7"></a>
+
  ## Test activities of analysis and design
- <a id="7"></a>
+ 
  |Test activities|ANALYSIS|DESIGN|Implementation|
 |:----|:----|:----|:----|
 |Creating test suites| | |x|
@@ -115,13 +129,17 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
-## Test activities of analysis, design and implementation
  <a id="8"></a>
+
+## Test activities of analysis, design and implementation
+
+
+ <a id="9"></a>
  
 [Back to content](#x)
 
 ## Test activities of implementation and execution
- <a id="9"></a>
+
 
  [Back to content](#x)
 
