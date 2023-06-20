@@ -3,6 +3,12 @@
  - [Testing and debugging](#2)
  - [Regression and retesting](#3)
  - [Testing Principle](#4)
+ - [Entry Criteria and Exit Criteria](#5)
+ - [Comparing test activities:](#6)
+ - -[Test activities of analysis and design](#7)
+ - -[Test activities of analysis, design and implementation](#8)
+ - -[Test activities of implementation and execution](#9)
+
 
 
 # Intro
@@ -76,7 +82,27 @@ There are other reason why system fail and can affect the operation of hardware 
 |Points out what should be tested and when to start testing|Gives warning about what problems still exist in an application even after completing all tests|
 
 # Comparing test activities:
-## Test activities of analysis and design
+
+ ## Test activities of analysis and design
+ <a id="7"></a>
+ |Test activities|ANALYSIS|DESIGN|Implementation|
+|:----|:----|:----|:----|
+|Creating test suites| | |x|
+|Developing test procedures,| | |x|
+|Service virtualization| | |x|
+|Verifying that everything needed has been set up correctly| | |x|
+|Identifying necessary test data to support test cases| |x| |
+|Building test harnesses and simulators| | |x|
+|Designing the test environment| |x| |
+|Verifying that everything needed has been set up correctly| | |x|
+|Evaluating the test basis and test items to identify defects of various types|x| | |
+|Capturing bi-directional traceability between the test basis, test conditions, and test cases| |x| |
+|Capturing bi-directional traceability between each element of the test basis and the associated test conditions|x| | |
+
+
 ## Test activities of analysis, design and implementation
+ <a id="8"></a>
+ 
 ## Test activities of implementation and execution
+ <a id="9"></a>
 
