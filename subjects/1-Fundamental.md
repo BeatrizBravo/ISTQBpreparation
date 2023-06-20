@@ -38,6 +38,13 @@ There are other reason why system fail and can affect the operation of hardware 
 | by the tester |by the developer |
 
 <br>
+
+|TRUE|FALSE|
+|:----|:----|
+|Failures can be caused by environmental conditions such as radiation|A defect is produced as a result of system failure|
+|Defects, bugs and faults are the same thing|Failures can cause bugs|
+| |Faults always cause system failures|
+
 <br>
 # Regression and retesting
 <a id="3"></a>
