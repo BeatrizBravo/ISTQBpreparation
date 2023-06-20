@@ -13,4 +13,4 @@ The repository is going to include a definitions, comparison tables to understan
 My hope is that this repository will be a useful resource for others preparing for the ISTQB Foundation exam and that it will provide a structured and efficient way to cover the necessary concepts and terminology.
 
 ## Try yourself
-Follow along in the next  [link](ttps://ws1.nbni.co.uk/fusion/v2.0/supplement/5f2826d8646eb18a78c3a638.pdf)
+Follow along in the next  [link](https://ws1.nbni.co.uk/fusion/v2.0/supplement/5f2826d8646eb18a78c3a638.pdf)
