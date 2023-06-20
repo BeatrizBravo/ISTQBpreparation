@@ -75,4 +75,8 @@ There are other reason why system fail and can affect the operation of hardware 
 |Deals with basic scenarios of testing|Deals with conditions outside basic scopes|
 |Points out what should be tested and when to start testing|Gives warning about what problems still exist in an application even after completing all tests|
 
+# Comparing test activities:
+## Test activities of analysis and design
+## Test activities of analysis, design and implementation
+## Test activities of implementation and execution
 
