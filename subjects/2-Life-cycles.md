@@ -90,3 +90,5 @@ Testing as part of the overall software development process.
 |What is the purpose of maintenance testing?|The purpose of maintenance testing is to ensure that a software system remains usable and effective over time. This involves making changes and updates to the system as necessary, and testing those changes to ensure they do not introduce new defects or problems.|
 |Give examples of when maintenance testing?|Examples of when maintenance testing may be needed include: when new features or functionality are added to the system, when changes are made to the underlying infrastructure, when the system is moved to a new environment, or when issues or bugs are identified and need to be fixed.|
 
+# More multi-choice questions
+ - [Chapter 2 questions from Brainscape](https://www.brainscape.com/flashcards/chapter-2-testin-throughout-the-software-8232116/packs/13921566)
