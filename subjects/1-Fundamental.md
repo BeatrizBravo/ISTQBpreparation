@@ -2,6 +2,7 @@
  - [Introduction](#1)
  - [Testing and debugging](#2)
  - [Regression and retesting](#3)
+ - [Testing Principle](#4)
 
 
 # Intro
@@ -46,9 +47,32 @@ There are other reason why system fail and can affect the operation of hardware 
 | |Faults always cause system failures|
 
 <br>
+
 # Regression and retesting
 <a id="3"></a>
 
 |REGRESSION|RETESTING|
 |:----|:----|
 |Regression testing is checking that there are no additional problems in previously tested software. |retesting is demonstrating that the reported defect has been fixed.|
+
+# Testing Principle
+ <a id="4"></a>
+
+|Testing Principle|Description|
+|:----|:----|
+|Testing shows the presence of defects|Testing can show that defects are present, but it cannot prove that there are no defects. Even with thorough testing, it is possible that some defects may remain undetected.|
+|Absence of Error Fallacy|Finding and fixing defects does not necessarily mean that the system is ready for release or will meet the needs of its users.Just because a system does not have any known defects does not mean that it is fit for its intended purpose.It is important to focus on fulfilling the requirements and meeting the needs of the users, rather than just finding and fixing defects.|
+|Exhaustive testing is impossible|It is not possible to test all possible combinations of inputs and preconditions due to the large number of possibilities.Therefore, it is not possible to find all defects in a system through testing.|
+
+# Entry Criteria and Exit Criteria
+ <a id="5"></a>
+
+
+|Entry Criteria|Exit Criteria|
+|:----|:----|
+|Pre-requisite condition for testing|Post-testing condition|
+|Defines when to start testing|Indicates when to stop testing|
+|Deals with basic scenarios of testing|Deals with conditions outside basic scopes|
+|Points out what should be tested and when to start testing|Gives warning about what problems still exist in an application even after completing all tests|
+
+
