@@ -1,8 +1,8 @@
 **Content:**
  - [Introduction](#1)
  - [Testing and debugging](#2)
- - [Test Types](#3)
- - [Questions](#4)
+ - [Regression and retesting](#3)
+
 
 # Intro
  <a id="1"></a>
@@ -23,8 +23,11 @@ There are other reason why system fail and can affect the operation of hardware 
 - injury
 - death
 
+<br>
+
 # Testing and debugging
- <a id="2"></a>
+<a id="2"></a>
+
 |testing |debugging|
 |:----|:----|
 |Identifies failures| Investigates the cause of a fault (root cause)|
@@ -34,3 +37,11 @@ There are other reason why system fail and can affect the operation of hardware 
 |-- |-- |
 | by the tester |by the developer |
 
+<br>
+<br>
+# Regression and retesting
+<a id="3"></a>
+
+|REGRESSION|RETESTING|
+|:----|:----|
+|Regression testing is checking that there are no additional problems in previously tested software. |retesting is demonstrating that the reported defect has been fixed.|
