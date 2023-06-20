@@ -69,10 +69,10 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
-# Testing Principle
+# Testing Principles
  <a id="4"></a>
 
-|Testing Principle|Description|
+|Testing Principles|Description|
 |:----|:----|
 |Testing shows the presence of defects|Testing can show that defects are present, but it cannot prove that there are no defects. Even with thorough testing, it is possible that some defects may remain undetected.|
 |Absence of Error Fallacy|Finding and fixing defects does not necessarily mean that the system is ready for release or will meet the needs of its users.Just because a system does not have any known defects does not mean that it is fit for its intended purpose.It is important to focus on fulfilling the requirements and meeting the needs of the users, rather than just finding and fixing defects.|
@@ -94,6 +94,7 @@ There are other reason why system fail and can affect the operation of hardware 
 [Back to content](#x)
 
 # Comparing test activities:
+ <a id="6"></a>
 
  ## Test activities of analysis and design
  <a id="7"></a>

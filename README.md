@@ -8,7 +8,7 @@ This repository will record my journey and progress in studying for the exam.
 
 <br>
 
-The repository is going to include definitions and comparison tables to understand the main concepts and terms related to testing and 
+The repository is going to include definitions -, flashcards and comparison tables to understand the main concepts and terms related to testing and 
 <br>I will answers the  **check of understanding questions** of each chapter of the book "Software Testing" (4th edition) by Brian Hambling (ed.) and others.
 
 My hope is that this repository will be a useful resource for others preparing for the ISTQB Foundation exam and that it will provide a structured and efficient way to cover the necessary concepts and terminology.
