@@ -67,7 +67,7 @@ Apply to every test level
 | Security testing | Testing the application or system for security vulnerabilities | Non-functional testing | To ensure the system is protected from unauthorized access |
 | Usability testing | Testing the ease of use and user interface design of the system | Non-functional testing | To ensure the system is user-friendly |
 | White-box testing | Testing the internal workings of an application | White-box testing | To ensure all code paths have been tested |
-| Regression testing | Testing for changes or new additions to functionality do not break existing code | Testing after code has been changed | To ensure the stability of the system after changes <br> re-testing <br> regression testing [comparative](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/1-Fundamental.md#3)|
+| Regression testing | Testing for changes or new additions to functionality do not break existing code | Testing after code has been changed | To ensure the stability of the system after changes <br> re-testing <br> regression testing [comparative](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/1-Fundamental.md#regression-and-retesting)|
 ![testing-type](https://qph.cf2.quoracdn.net/main-qimg-ad4946a45fa55aa801f397b2009371cc "testing-type")
 
 
