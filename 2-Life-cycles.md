@@ -1,4 +1,8 @@
-
+**Content:**
+ - [Introduction](#1)
+ - [Testing levels](#2)
+ - [Test Types](#3)
+ - [Questions](#4)
 
 # Intro
 Testing as part of the overal software development process.
@@ -13,7 +17,9 @@ Inline-style:
      
 <br>
 
+
 # Test Model 
+ <a id="1"></a>
 
 |Test Model | Description | Advantages            | Disadvantages                 |
 |-----------|-------------|-----------------------|-------------------------------|
@@ -23,11 +29,13 @@ Inline-style:
 <img src="https://www.tutorialscampus.com/sdlc/img/v-model.png"  width="150" height="150"
      alt="v-model"
      style="float: left; margin-right: 10px;" />
-<img src="https://www.researchgate.net/publication/338710620/figure/fig4/AS:849628610166790@1579578654482/SDLC-Iterative-Model-2.jpg"  width="350" height="150"
-     alt="v-model"
+<img src="https://www.researchgate.net/publication/338710620/figure/fig4/AS:849628610166790@1579578654482/SDLC-Iterative-Model-2.jpg"   
+    width="350" height="150"
+     alt="iterative-model"
      style=" margin-right: 10px;" />
 
 # Testing levels
+ <a id="2"></a>
 |Testing Level|Definition|Testing Level2|Purpose|Preformed by|
 |:----|:----|:----|:----|:----|
 |Component Testing|The testing of individual components or modules of an application, typically performed by developers using unit testing frameworks.|Unit level|To detect and fix defects in code at an early stage in the development process.|developer|
@@ -37,6 +45,7 @@ Inline-style:
 ![testing-level](https://www.softwaretestingclass.com/wp-content/uploads/2012/09/levels-of-testing.jpg "testing-level")
 
 # Test Types
+ <a id="3"></a>
 
 | Test Type | Definition | Category | Purpose |
 |-----------|------------|----------|---------|
@@ -53,7 +62,8 @@ Inline-style:
 
 
 
-# Questions
+# Questions 
+<a id="4"></a>
 |Life cycles questions |Answers|
 |:----|:----|
 |What is mean by verification?|Verification is the process of evaluating whether a system or component meets its specified requirements or not|
