@@ -18,4 +18,4 @@ Follow along in the next  [link](https://ws1.nbni.co.uk/fusion/v2.0/supplement/5
 
 # Index Contents:
 
- - [Chapter 2: Life Cycles](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/2-Life-cycles.md)
+ - [Chapter 2: Life Cycles](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/2-Life-cycles.md)
