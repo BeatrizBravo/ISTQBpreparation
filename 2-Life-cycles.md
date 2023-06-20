@@ -5,10 +5,8 @@
  - [Questions](#4)
 
 # Intro
-Testing as part of the overal software development process.
-Inline-style: 
-<!-- ![v-model](https://www.tutorialscampus.com/sdlc/img/v-model.png "v-model") -->
-<!-- ![v-model](https://www.researchgate.net/publication/338710620/figure/fig4/AS:849628610166790@1579578654482/SDLC-Iterative-Model-2.jpg "v-model") -->
+Testing as part of the overall software development process.
+
 
 
 
@@ -21,18 +19,19 @@ Inline-style:
 # Test Model 
  <a id="1"></a>
 
-|Test Model | Description | Advantages            | Disadvantages                 |
-|-----------|-------------|-----------------------|-------------------------------|
-| V-model | A linear model where each phase of development is completed before moving onto the next phase, with testing at each stage | - Improves quality as testing occurs at each stage, leading to fewer defects in later phases<br>- Good for linear projects where requirements are well understood | - Rigid, less suitable for projects with evolving requirements<br>- Difficult to make changes once a stage has been completed |
-| Iterative model | A cyclic model where a small set of requirements is developed and tested in each iteration, gradually building up the full system | - Good for projects with evolving requirements<br>- Allows for early testing and feedback<br>- Easier to make changes | - May not work well for projects with fixed deadlines or budgets<br>- May require more resources or time due to the iterative nature |
+|Test Model | Description | Advantages            | Disadvantages                 |Diagram|
+|-----------|-------------|-----------------------|-------------------------------|-------|
+| V-model | A linear model where each phase of development is completed before moving onto the next phase, with testing at each stage | - Improves quality as testing occurs at each stage, leading to fewer defects in later phases<br>- Good for linear projects where requirements are well understood | - Rigid, less suitable for projects with evolving requirements<br>- Difficult to make changes once a stage has been completed |![v-model](https://www.tutorialscampus.com/sdlc/img/v-model.png "v-model")|
+| Iterative model | A cyclic model where a small set of requirements is developed and tested in each iteration, gradually building up the full system | - Good for projects with evolving requirements<br>- Allows for early testing and feedback<br>- Easier to make changes | - May not work well for projects with fixed deadlines or budgets<br>- May require more resources or time due to the iterative nature |![v-model](https://www.researchgate.net/publication/338710620/figure/fig4/AS:849628610166790@1579578654482/SDLC-Iterative-Model-2.jpg "v-model")|
 
-<img src="https://www.tutorialscampus.com/sdlc/img/v-model.png"  width="150" height="150"
+
+<!-- <img src="https://www.tutorialscampus.com/sdlc/img/v-model.png"  width="150" height="150"
      alt="v-model"
      style="float: left; margin-right: 10px;" />
 <img src="https://www.researchgate.net/publication/338710620/figure/fig4/AS:849628610166790@1579578654482/SDLC-Iterative-Model-2.jpg"   
     width="350" height="150"
      alt="iterative-model"
-     style=" margin-right: 10px;" />
+     style=" margin-right: 10px;" /> -->
 
 # Testing levels
  <a id="2"></a>
