@@ -3,6 +3,8 @@
  - [Introduction](#1)
  - [Type of review](#2)
  - [Typical defects in static testing](#3)
+ - [Review Technique](#4)
+ - [Questions](#5)
 
  <a id="1"></a>
  
@@ -69,3 +71,33 @@
 |Gaps or inaccuracies in test basis traceability or coverage |missing tests for an criterion|
 
 
+<br>
+
+[Back to content](#x)
+ <a id="4></a>
+
+# Review Technique
+
+|Review Technique|Description|
+|:----|:----|
+|Ad hoc|Review conducted without any specific method or approach, relying on the reviewer's experience and intuition.|
+|Checklist based|Review based on a predefined list of items that must be checked during the review process.|
+|Scenarios and dry runs|Review based on simulations and trial runs of the document or product being reviewed.|
+|Role based|Review in which participants play specific well-defined roles (e.g., author, reviewer, moderator) to ensure all aspects of the review are covered.|
+|Perspective based|Review in which the focus is on a specific aspect of the document or product being reviewed (stakeholder's view point).|
+
+
+
+<br>
+
+[Back to content](#x)
+ <a id="5></a>
+
+# Questions
+|Question|Answer|
+|:----|:----|
+|Identify 3 benefits of review|find defects early, improve collaboration, increase product quality|
+|What happened during the planning phase of a review?|determine objectives, select reviewers, create review checklist|
+|Who manages the review process?|review moderator, review leader, or review chair|
+|Compare the differences between a walkthrough and an inspection|walkthrough: informal, no specific roles, goal is understanding; inspection: formal, participants play specific roles, goal is finding defects|
+|Name 3 characteristics of a walkthrough|no specific roles, freeform discussion, focused on understanding|
