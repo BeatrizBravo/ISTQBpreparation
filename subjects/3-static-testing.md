@@ -44,19 +44,6 @@
 
 <br>
 
-[Back to content](#x)
- <a id="2"></a>
-
-# Type of review
-
-|Type of review|Description|Advantages|Disadvantages|
-|:----|:----|:----|:----|
-|Informal Review|Review conducted without any formal structure or methods.|Quick and easy to conduct, suitable for small documents.|May miss important issues, may lack consistency and thoroughness.|
-|Walkthrough|A formal, slow-paced review that focuses on educating reviewers and discovering defects.|Helps identify defects early, can improve understanding of the document, fosters teamwork.|Can be time-consuming, may be too informal for some contexts.|
-|Technical Review|A formal, structured review that uses specific techniques and criteria to identify defects.|Unearths comprehensive list of defects, improves quality of the document.|Can be time-consuming and costly to plan and execute.|
-|Inspection|A highly formal, rigorous review process that analyzes the document with the goal of finding as many defects as possible.|Finds many defects, helps ensure high quality.|Can be time-consuming, requires extensive preparation and training.|
-|Peer Review|A review conducted by peers who share similar qualifications and experience, using a set of guidelines.|Can identify defects early, fosters collaboration and knowledge sharing, helps ensure high quality.|Limited to the expertise of the participants, may overlook some issues.|
-<br>
 
 [Back to content](#x)
  <a id="3></a>
@@ -139,3 +126,16 @@ br>
 |Who manages the review process?|review moderator, review leader, or review chair|
 |Compare the differences between a walkthrough and an inspection|walkthrough: informal, no specific roles, goal is understanding; inspection: formal, participants play specific roles, goal is finding defects|
 |Name 3 characteristics of a walkthrough|no specific roles, freeform discussion, focused on understanding|
+[Back to content](#x)
+ <a id="2"></a>
+
+# Type of review
+
+|Type of review|Description|Advantages|Disadvantages|meeting led |attended|Document|
+|:----|:----|:----|:----|:----|:----|:----|
+|Informal Review|Review conducted without any formal structure or methods.|Quick and easy to conduct, suitable for small documents.|May miss important issues, may lack consistency and thoroughness.|no|a colleague of the author <br> Opened up to many people.|no required|
+|Walkthrough|A formal, slow-paced review that focuses on educating reviewers and discovering defects.|Helps identify defects early, can improve understanding of the document, fosters teamwork.|Can be time-consuming, may be too informal for some contexts.|AUTHOR | Members of the author's peer group|a scribe is mandatory|
+|Technical Review|A formal, structured review that uses specific techniques and criteria to identify defects.|Unearths comprehensive list of defects, improves quality of the document.|Can be time-consuming and costly to plan and execute.| **ideally** a trained facilitator ( not the author)|should: technical peers of the author<br>  technical experts in the same or other disciplines|a scribe is mandatory|
+|Inspection|A highly formal, rigorous review process that analyzes the document with the goal of finding as many defects as possible.|Finds many defects, helps ensure high quality.|Can be time-consuming, requires extensive preparation and training.|a trained facilitator ( not the author)|Are: peers of the author <br> experts in other disciplines that are relevant to the work product|a scribe is mandatory|
+
+<br>
