@@ -2,6 +2,7 @@
  <a id="x"></a>
  - [Introduction](#1)
  - [Type of review](#2)
+ - [Typical defects in static testing](#3)
 
  <a id="1"></a>
  
@@ -51,6 +52,20 @@
 |Technical Review|A formal, structured review that uses specific techniques and criteria to identify defects.|Unearths comprehensive list of defects, improves quality of the document.|Can be time-consuming and costly to plan and execute.|
 |Inspection|A highly formal, rigorous review process that analyzes the document with the goal of finding as many defects as possible.|Finds many defects, helps ensure high quality.|Can be time-consuming, requires extensive preparation and training.|
 |Peer Review|A review conducted by peers who share similar qualifications and experience, using a set of guidelines.|Can identify defects early, fosters collaboration and knowledge sharing, helps ensure high quality.|Limited to the expertise of the participants, may overlook some issues.|
+<br>
 
+[Back to content](#x)
+ <a id="3></a>
+
+# Typical defects in static testing
+|Typical defects| |
+|:----|:----|
+|Requirement defects |inconsistencies<br> ambiguities<br> contradictions<br> omissions<br> inaccuracies<br> redundancies|
+|Design defects|inefficient algorithms or database structures<br> high coupling (the lack of interdependent between modules) <br> low cohesion (associated with undesirable traits such as being difficult to maintain, test, reuse or even understand.|
+|Coding defects | variables with undefined values<br> variables that are declared but never used<br> unreachable code <br>duplicate code|
+|Deviations from standards |lack of adherence to coding standards|
+|Incorrect interface specifications |different units of measurement used by the **calling** system than by the **called** system|
+|Security vulnerabilities |susceptibility to buffer overflows|
+|Gaps or inaccuracies in test basis traceability or coverage |missing tests for an criterion|
 
 
