@@ -86,7 +86,14 @@
 |Role based|Review in which participants play specific well-defined roles (e.g., author, reviewer, moderator) to ensure all aspects of the review are covered.|
 |Perspective based|Review in which the focus is on a specific aspect of the document or product being reviewed (stakeholder's view point).|
 
+```
+Formal review sequence:
 
+├── Planning
+    ├── initiate review
+        ├── Individual review
+            ├── Issue  communication
+                ├── Analysis
 
 <br>
 
