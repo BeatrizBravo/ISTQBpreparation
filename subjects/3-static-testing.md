@@ -5,6 +5,7 @@
  - [Typical defects in static testing](#3)
  - [Review Technique](#4)
  - [Questions](#5)
+ - [Formal review sequence](#6)
 
  <a id="1"></a>
  
@@ -86,6 +87,16 @@
 |Role based|Review in which participants play specific well-defined roles (e.g., author, reviewer, moderator) to ensure all aspects of the review are covered.|
 |Perspective based|Review in which the focus is on a specific aspect of the document or product being reviewed (stakeholder's view point).|
 
+
+
+<br>
+
+[Back to content](#x)
+ <a id="6"></a>
+
+# Formal review sequence
+
+
 ```
 Formal review sequence:
 
@@ -94,7 +105,7 @@ Formal review sequence:
         ├── Individual review
             ├── Issue  communication
                 ├── Analysis
-
+```
 <br>
 
 [Back to content](#x)
