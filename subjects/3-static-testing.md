@@ -6,6 +6,7 @@
  - [Review Technique](#4)
  - [Questions](#5)
  - [Formal review sequence](#6)
+ - [Static testing and Static Analysis ](#7)
 
  <a id="1"></a>
  
@@ -106,10 +107,29 @@ Formal review sequence:
             ├── Issue  communication
                 ├── Analysis
 ```
+
+br>
+
+[Back to content](#x)
+ <a id="7"></a>
+
+# Static testing and Static Analysis 
+|Criteria|Static Testing|Static Analysis|
+|:----|:----|:----|
+|Definition|A technique for evaluating software without executing code.<br>2 parts: <br>&ensp;&ensp;-Manual testing (review activities)<br>&ensp;&ensp;-Automation testing (static analysis tool) <br>**Reviews** are applied to:<br>- code, <br>-requirements,<br>- design documents, or <br>- test plans.|A technique for evaluating software through:<br>- examining code and <br> - identifying code structure and <br>- data flow issues. <br>It is code-focused rather than document-focused.<br> chapter 4|
+|Main Purpose|To identify errors in early stages and improve software quality before testing.|To locate hidden bugs, security vulnerabilities and code smells, and prevent runtime issues.|
+|Application|Used during the verification phase of the software development life cycle.|Can be used during development, testing, or maintenance stages.|
+|Method|Includes reviews, walkthroughs, and inspections.|Includes code analysis tools, such as code scanners, which automatically examine code to locate security vulnerabilities or other defects.|
+|Advantages|Helps identify and fix errors early, helps maintainability and readability of code, cost-effective.|Helps identify hidden bugs and errors that can cause runtime issues, helps identify security vulnerabilities and code smells.|
+|Disadvantages|Can be time-consuming and require a lot of effort in the preparation phase, may require special training.|May produce a large volume of false positives, may require special training to use, may not account for runtime behavior.|
+
+
 <br>
 
 [Back to content](#x)
- <a id="5></a>
+ <a id="6"></a>
+
+<br>
 
 # Questions
 |Question|Answer|
