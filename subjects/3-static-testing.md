@@ -3,6 +3,10 @@
  - [Introduction](#1)
  - [Type of review](#2)
  - [Typical defects in static testing](#3)
+ - [Review Technique](#4)
+ - [Questions](#5)
+ - [Formal review sequence](#6)
+ - [Static testing and Static Analysis ](#7)
 
  <a id="1"></a>
  
@@ -56,6 +60,72 @@
 |Gaps or inaccuracies in test basis traceability or coverage |missing tests for an criterion|
 
 
+<br>
+
+[Back to content](#x)
+ <a id="4></a>
+
+# Review Technique
+
+|Review Technique|Description|
+|:----|:----|
+|Ad hoc|Review conducted without any specific method or approach, relying on the reviewer's experience and intuition.|
+|Checklist based|Review based on a predefined list of items that must be checked during the review process.|
+|Scenarios and dry runs|Review based on simulations and trial runs of the document or product being reviewed.|
+|Role based|Review in which participants play specific well-defined roles (e.g., author, reviewer, moderator) to ensure all aspects of the review are covered.|
+|Perspective based|Review in which the focus is on a specific aspect of the document or product being reviewed (stakeholder's view point).|
+
+
+
+<br>
+
+[Back to content](#x)
+ <a id="6"></a>
+
+# Formal review sequence
+
+
+```
+Formal review sequence:
+
+├── Planning
+    ├── initiate review
+        ├── Individual review
+            ├── Issue  communication
+                ├── Analysis
+```
+
+br>
+
+[Back to content](#x)
+ <a id="7"></a>
+
+# Static testing and Static Analysis 
+|Criteria|Static Testing|Static Analysis|
+|:----|:----|:----|
+|Definition|A technique for evaluating software without executing code.<br>2 parts: <br>&ensp;&ensp;-Manual testing (review activities)<br>&ensp;&ensp;-Automation testing (static analysis tool) <br>**Reviews** are applied to:<br>- code, <br>-requirements,<br>- design documents, or <br>- test plans.|A technique for evaluating software through:<br>- examining code and <br> - identifying code structure and <br>- data flow issues. <br>It is code-focused rather than document-focused.<br> chapter 4|
+|Main Purpose|To identify errors in early stages and improve software quality before testing.|To locate hidden bugs, security vulnerabilities and code smells, and prevent runtime issues.|
+|Application|Used during the verification phase of the software development life cycle.|Can be used during development, testing, or maintenance stages.|
+|Method|Includes reviews, walkthroughs, and inspections.|Includes code analysis tools, such as code scanners, which automatically examine code to locate security vulnerabilities or other defects.|
+|Advantages|Helps identify and fix errors early, helps maintainability and readability of code, cost-effective.|Helps identify hidden bugs and errors that can cause runtime issues, helps identify security vulnerabilities and code smells.|
+|Disadvantages|Can be time-consuming and require a lot of effort in the preparation phase, may require special training.|May produce a large volume of false positives, may require special training to use, may not account for runtime behavior.|
+
+
+<br>
+
+[Back to content](#x)
+ <a id="6"></a>
+
+<br>
+
+# Questions
+|Question|Answer|
+|:----|:----|
+|Identify 3 benefits of review|find defects early, improve collaboration, increase product quality|
+|What happened during the planning phase of a review?|determine objectives, select reviewers, create review checklist|
+|Who manages the review process?|review moderator, review leader, or review chair|
+|Compare the differences between a walkthrough and an inspection|walkthrough: informal, no specific roles, goal is understanding; inspection: formal, participants play specific roles, goal is finding defects|
+|Name 3 characteristics of a walkthrough|no specific roles, freeform discussion, focused on understanding|
 [Back to content](#x)
  <a id="2"></a>
 
