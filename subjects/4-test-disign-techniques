@@ -1,0 +1,25 @@
+
+# Test techniques
+---
+| |Behaviour-based testing|Structure-base testing| |
+|:----|:----|:----|:----|
+| | |Inf. About how software is constructed.| 
+|COMMON POINT|**BLACK BOX TESTING**|**WHITE BOX TESTING**|**EXPERIENCED BASED TESTING**|
+| |Base on:|Base on:|Base on:|
+|
+Test conditions, <br>test cases, and test data<br>are DERIVED forma TEST BASIS that may INCLUDE<br> =>|Software requirements,<br>specifications,<br>use cases, and<br>user stories|code,software<br>architecture, <br>detailed design, <br>or any other<br>source of information<br>regarding the STRUCTURE of the software|knowledge and experience of:<br>testers, <br>developers,<br>users <br>and other<br>stakeholders|
+|COVERAGE  is measured BASED on the <br>=>|Items tested in the test basis and the technique applied to the test basis|Items tested within a selected structure (e.g.,the code or interfaces)<br>and the technique applied to the test basis|NONE|
+|types:|Equivalence class|Statement coverage|Exploitative testing|
+| |Boundary Value Analysis|Decision coverage /Branch coverage|Error guessing|
+| |Decision table testing|Decision testing| |
+| |State transition testing| 
+| | | | |
+
+# Questions 
+
+|Questions|Answers|Page on the book|
+|:----|:----|:----|
+|what defines the process of test execution?|The process of test execution involves several activities to answer "Are all test run?" <br>	to RUN the test suit (using the inputs) and compare and evaluate results against the expected results..<br>Work product:<br>✔Documentation of the status of individual test cases or test procedures (e.g., ready to run, pass, fail, blocked,deliberately skipped, etc.)<br>✔Defect reports<br>✔Documentation about which test item(s), test object(s), test tools and testware were involved in the  testing|98|
+|Briefly compare a test case and test condition.|**Test Case** is:<br>* A set of conditions or variables by which a tester will determine if a requirement of an application is satisfied<br>* HOW WE TEST the condition or scenario.<br>* A step-by-step approach to test the functionality of the software<br>-An aspect of the test basis taht is relevant in order to achieve specific test objetives <br>(an characteristic of our software <br>that we can check with a test or a set or tests).<br>Test Condition is:<br>* An item or event of a component or system that could be verified BY one or more **TEST CASES**.<br>* The condition or scenario TO BE tested.<br>-A set of preconditions, inputs, actions, expected results andpostconditions, BASED on test conditions.|
+|Which document identifies the sequence in which test are executed?|Test Procedure Specification. <br>It is a document that describes the step-by-step procedures for executing a test|
+|Describe the purpose of a test coverage measure.|‘how much testing have you done?’<br>It provides a:<br>* quantitative measure of the quality of the testing that has been done by measuring what has been achieved.<br>* way of estimating how much more testing needs to be done. <br>  Using quantitative measures we can set targets for test coverage and measure progress against them.<br>|
