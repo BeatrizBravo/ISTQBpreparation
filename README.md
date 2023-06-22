@@ -18,5 +18,5 @@ Follow along in the next  [link](https://ws1.nbni.co.uk/fusion/v2.0/supplement/5
 
 # Index Contents:
 
- - [Chapter 1: The fundamentals of testing](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/1-Fundamental.md)
- - [Chapter 2: Life Cycles](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/2-Life-cycles.md)
+ - ✅ [Chapter 1: The fundamentals of testing](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/1-Fundamental.md)
+ - ✅ [Chapter 2: Life Cycles](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/2-Life-cycles.md)
