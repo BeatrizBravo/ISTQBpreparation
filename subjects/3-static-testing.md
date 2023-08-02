@@ -27,13 +27,13 @@
 >>* a test case
 
 
-|Static|Dynamic|
-|:----|:----|
-|- finds causes of failure (Defect)|- finds the failures themselves (failure)|
-|- finds them early|- finds them late|
-|- defect cheap to fix|- defect expensive to fix|
-|-----Te techniques  are complementary----- |
-| | |
+| Static                                      |Dynamic|
+|:--------------------------------------------|:----|
+| - finds causes of failure (Defect)          |- finds the failures themselves (failure)|
+| - finds them early                          |- finds them late|
+| - defect cheap to fix                       |- defect expensive to fix|
+| -----The techniques  are complementary----- |
+|                                             | |
 
 
 
