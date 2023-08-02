@@ -46,7 +46,8 @@
 
 
 [Back to content](#x)
- <a id="3></a>
+
+ <a id=3></a>
 
 # Typical defects in static testing
 |Typical defects| |
@@ -63,7 +64,7 @@
 <br>
 
 [Back to content](#x)
- <a id="4></a>
+ <a id=4></a>
 
 # Review Technique
 
@@ -95,7 +96,7 @@ Formal review sequence:
                 ├── Analysis
 ```
 
-br>
+<br>
 
 [Back to content](#x)
  <a id="7"></a>
@@ -113,8 +114,10 @@ br>
 
 <br>
 
+
 [Back to content](#x)
  <a id="6"></a>
+
 
 <br>
 
@@ -137,5 +140,6 @@ br>
 |Walkthrough|A formal, slow-paced review that focuses on educating reviewers and discovering defects.|Helps identify defects early, can improve understanding of the document, fosters teamwork.|Can be time-consuming, may be too informal for some contexts.|AUTHOR | Members of the author's peer group|a scribe is mandatory|
 |Technical Review|A formal, structured review that uses specific techniques and criteria to identify defects.|Unearths comprehensive list of defects, improves quality of the document.|Can be time-consuming and costly to plan and execute.| **ideally** a trained facilitator ( not the author)|should: technical peers of the author<br>  technical experts in the same or other disciplines|a scribe is mandatory|
 |Inspection|A highly formal, rigorous review process that analyzes the document with the goal of finding as many defects as possible.|Finds many defects, helps ensure high quality.|Can be time-consuming, requires extensive preparation and training.|a trained facilitator ( not the author)|Are: peers of the author <br> experts in other disciplines that are relevant to the work product|a scribe is mandatory|
+
 
 <br>

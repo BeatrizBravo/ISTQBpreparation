@@ -14,9 +14,10 @@ The repository is going to include definitions - flashcards and comparison table
 My hope is that this repository will be a useful resource for others preparing for the ISTQB Foundation exam and that it will provide a structured and efficient way to cover the necessary concepts and terminology.
 
 ## Try yourself
-Follow along in the next  [link](https://ws1.nbni.co.uk/fusion/v2.0/supplement/5f2826d8646eb18a78c3a638.pdf) to go to chapter your want to review.
+Follow along with your book to go to the chapter your want to review.
 
 # Index Contents:
 
  - ✅ [Chapter 1: The fundamentals of testing](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/1-Fundamental.md)
  - ✅ [Chapter 2: Life Cycles](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/2-Life-cycles.md)
+ - ✅ [Chapter 3: Static testing](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/3-static-testing.md)
