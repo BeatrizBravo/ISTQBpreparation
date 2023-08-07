@@ -89,7 +89,6 @@
 |Test procedure contains end to end test cases.|Test suite contains all new features and regression test cases.|
 |Test procedures are coded in a new language called TPL(Test Procedure language).|Test suite contains manual test cases or automation scripts.|
 |Creation of Test Procedures is based on the end to end test flow.|Test suites are created based on the cycle or based on the scope.|
-| | |
 
 [Back to content](#x)
 
