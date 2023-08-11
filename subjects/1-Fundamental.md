@@ -130,7 +130,6 @@ There are other reason why system fail and can affect the operation of hardware 
 
 <a id="12"></a>
 
-## Definition of each process
 
 |Definition| | | | | | |
 |:----|:----|:----|:----|:----|:----|:----|
@@ -142,7 +141,6 @@ There are other reason why system fail and can affect the operation of hardware 
 
 <a id="13"></a>
 
-## Tasks:
 
 |Task:| | | | | | |
 |:----|:----|:----|:----|:----|:----|:----|
@@ -161,19 +159,18 @@ There are other reason why system fail and can affect the operation of hardware 
 
 <a id="14"></a>
 
-## Work Product
-|WORK PRODUCT| | | | | | |
-|:----|:----|:----|:----|:----|:----|:----|
-|Test planning|Test Monitoring and Control|Test Analysis|Test desing|Test implementation|Test execution|test completion|
-|Test planning|TEST PROGRESS REPORTS|Defined and prioritized test conditions|Test cases and sets of test cases.|Test procedures and the sequencing of those test procedures.|Documentation of the status of individual test cases or test procedures (e.g., ready to run, pass, fail, blocked,deliberately skipped, etc.)|Test summary reports|
-|Test Plans|TEST SUMMARY REPORTS|Creation of test charters
-(A test charter provides the test conditions to cover during a time-boxed testing session)|Design and/or identification of the test data|Test suites.|Defect reports|Action items for improvement of subsequent projects or iterations|
-|Exit Criteria|Audience relevant report and report addressing project management concerns|Defects in the test basis|Identification of infrastructure and tools|A test execution schedule.|Documentation about which test item(s), test object(s), test tools and testware were involved in the  testing|Change requests or product backlog items, and|
-| | | |Design of the test environment|Service virtualization and automated test scripts.|Comparing actual results with expected results|Finalized testware|
-| | | | |Creation and verification of test data is properly loaded into  the test environment.| | |
-| | | | |Test conditions defined in test analysis maybe for the further refiened in test implementation| | |
-| | |Hight level of test cases|Hight level of test cases|LOWER level of test cases| | |
-| | | | | |Verifying and updating bi-directional traceability between the test basis, test conditions, test cases, test procedures and test results| |
+| Work Product                                                                               |                                                                            |                                         |                                            |                                                                                                |                                                                                                                                              |                                               |
+|:-------------------------|:----------------------------------------------------------------|:----------------------------------------|:-------------------------------------------|:------------------------------------------------|:-------------------------|:----------------------------------------------|
+| Test planning            | Test Monitoring and Control                                    | Test Analysis                           | Test desing                         | Test implementation                | Test execution                                | test completion                               |
+| Test planning                                                                              | TEST PROGRESS REPORTS                                                      | Defined and prioritized test conditions | Test cases and sets of test cases.         | Test procedures and the sequencing of those test procedures.                                   | Documentation of the status of individual test cases or test procedures (e.g., ready to run, pass, fail, blocked,deliberately skipped, etc.) | Test summary reports                          |
+| Test Plans                                                                                 | TEST SUMMARY REPORTS                                                       | Creation of test charters               |                                            |                                                                                                |                                                                                                                                              |                                               |
+| (A test charter provides the test conditions to cover during a time-boxed testing session) | Design and/or identification of the test data                              | Test suites.                            | Defect reports                             | Action items for improvement of subsequent projects or iterations                              |                                                                                                                                              |                                               |
+| Exit Criteria                                                                              | Audience relevant report and report addressing project management concerns | Defects in the test basis               | Identification of infrastructure and tools | A test execution schedule.                                                                     | Documentation about which test item(s), test object(s), test tools and testware were involved in the  testing                                | Change requests or product backlog items, and |
+|                                                                                            |                                                                            |                                         | Design of the test environment             | Service virtualization and automated test scripts.                                             | Comparing actual results with expected results                                                                                               | Finalized testware                            |
+|                                                                                            |                                                                            |                                         |                                            | Creation and verification of test data is properly loaded into  the test environment.          |                                                                                                                                              |                                               |
+|                                                                                            |                                                                            |                                         |                                            | Test conditions defined in test analysis maybe for the further refiened in test implementation |                                                                                                                                              |                                               |
+|                                                                                            |                                                                            | Hight level of test cases               | Hight level of test cases                  | LOWER level of test cases                                                                      |                                                                                                                                              |                                               |
+|                                                                                            |                                                                            |                                         |                                            |                                                                                                | Verifying and updating bi-directional traceability between the test basis, test conditions, test cases, test procedures and test results     |                                               |
 
 
 
@@ -196,6 +193,20 @@ There are other reason why system fail and can affect the operation of hardware 
 
  ## Test activities of analysis and design
 
+|Test activities|ANALYSIS|DESIGN|
+|:----|:----|:----|
+|Designing test cases| |x|
+|Prioritized test conditions|x| |
+|prioritizing test cases| |x|
+|Identifying test conditions|x| |
+|Identifying necessary test data to support test cases| |x|
+|Identifying necessary test data to support test conditions| |x|
+|Designing the test environment| |x|
+|Identifying features and sets of features to be tested|x| |
+|Evaluating the test basis and test items to identify defects of various types|x| |
+|Capturing bi-directional traceability between the test basis, test conditions, and test cases| |x|
+|Capturing bi-directional traceability between each element of the test basis and the associated test conditions|x| |
+
 
 
 [Back to content](#x)
@@ -204,19 +215,19 @@ There are other reason why system fail and can affect the operation of hardware 
 
 ## Test activities of analysis, design and implementation
 
-|Test activities|ANALYSIS|DESIGN|Implementation|
-|:----|:----|:----|:----|
-|Creating test suites| | |x|
-|Developing test procedures,| | |x|
-|Service virtualization| | |x|
-|Verifying that everything needed has been set up correctly| | |x|
-|Identifying necessary test data to support test cases| |x| |
-|Building test harnesses and simulators| | |x|
-|Designing the test environment| |x| |
-|Verifying that everything needed has been set up correctly| | |x|
-|Evaluating the test basis and test items to identify defects of various types|x| | |
-|Capturing bi-directional traceability between the test basis, test conditions, and test cases| |x| |
-|Capturing bi-directional traceability between each element of the test basis and the associated test conditions|x| | |
+|Test activities|ANALYSIS|DESIGN| IMPLEMENTATION |
+|:----|:----|:----|:---------------|
+|Creating test suites| | | x              |
+|Developing test procedures,| | | x              |
+|Service virtualization| | | x              |
+|Verifying that everything needed has been set up correctly| | | x              |
+|Identifying necessary test data to support test cases| |x|                |
+|Building test harnesses and simulators| | | x              |
+|Designing the test environment| |x|                |
+|Verifying that everything needed has been set up correctly| | | x              |
+|Evaluating the test basis and test items to identify defects of various types|x| |                |
+|Capturing bi-directional traceability between the test basis, test conditions, and test cases| |x|                |
+|Capturing bi-directional traceability between each element of the test basis and the associated test conditions|x| |                |
 
  <a id="9"></a>
  
@@ -224,6 +235,17 @@ There are other reason why system fail and can affect the operation of hardware 
 
 ## Test activities of implementation and execution
 
+| Test activities                                                               | Implementation | Execution | 
+|:------------------------------------------------------------------------------|:---------------|:----------|
+| Developing test procedures, and. potentially, creating automated test scripts | x              |           |
+| Logging the outcome of test execution                                         |                | x         |
+| Executing tests manually                                                      |                | x         |
+| Creating test suites from the test procedures                                 | x              |           |
+| Repeating test activities either as a result of action taken for an anomaly   |                | x         |
+| Prioritizing test procedures                                                  | x              |           |
+| Preparing test data                                                           | x              |           |
+| Comparing actual results with expected results                                |                | x         |
+| Ensuring it is properly loaded in the test environment                        | x              |           |
 
- [Back to content](#x)
+[Back to content](#x)
 
