@@ -1,15 +1,21 @@
 **Content:**
  <a id="x"></a>
 
- - [Introduction](#1)
- - [Testing and debugging](#2)
- - [Regression and retesting](#3)
- - [Testing Principle](#4)
- - [Entry Criteria and Exit Criteria](#5)
- - [Comparing test activities:](#6)
- - -[Test activities of analysis and design](#7)
- - -[Test activities of analysis, design and implementation](#8)
- - -[Test activities of implementation and execution](#9)
+- [Introduction](#1)
+- [Testing and debugging](#2)
+- [Regression and retesting](#3)
+- [Testing Principle](#4)
+- [Entry Criteria and Exit Criteria](#5)
+- [Test process of Testing](#10)
+  - [Organizational test process](#11)
+  - [Definition](#12)
+  - [Tasks](#13)
+  - [Work products](#14)
+
+- [Comparing test activities:](#6)
+  - [Test activities of analysis and design](#7)
+  - [Test activities of analysis, design and implementation](#8)
+  - [Test activities of implementation and execution](#9)
 
 
  <a id="1"></a>
@@ -103,6 +109,84 @@ There are other reason why system fail and can affect the operation of hardware 
 
 [Back to content](#x)
 
+<a id="10"></a>
+
+
+# Test process
+
+[Back to content](#x)
+
+<a id="11"></a>
+
+## Organizational test process:
+| Organizational test process: | |
+|:-----------------------------|:----|
+| Test ACTIVITY  and TASK      |WORK|
+| Test WORK product            |OUTPUT|
+| Traceability                 |relation throughout the test process btw each element test basis and|
+
+
+[Back to content](#x)
+
+<a id="12"></a>
+
+## Definition of each process
+
+|Definition| | | | | | |
+|:----|:----|:----|:----|:----|:----|:----|
+|Test planning|Test Monitoring and Test Control|Test Analysis|Test desing|Test implementation|Test execution|test completion|
+|Defining test objetive<br>Defining test approach (achieve CONTEXTUAL factor that INFLUENCE the test process)<br>updating PLAN bse on feedback|on-going COMPARASION of actual progress AGAINTS planned progress, using metrics define in the test plan => Are we on track?<br><br>control taking actions necessary to meet the objetive of the test plan => are we doingi alrigh?<br>both = SUPORTED by evaluation of EXIT CRITERIA -defintion of done (checking, assessing , determining if more test are needed)<br><br>COMUNICATION to STAKEHOLDERS (test progress against the plan, deviations from te plan and infromation to support any decision to stop testing.|Test basis is analyzed ( - testable feature, - associated with test condition, )<br><br>Identify testable feature<br> Define test conditions|During test design, the test conditions are elaborated into:  - high-level test cases,  - sets of high-level test cases, and  - other testware<br><br>How to test? (test condition are elaborated into hing-level test cases and Identification of defects in the test baseis)|During test implementation, the testware necessary for test execution is created and/or completed, including sequencing the test cases into test procedures.<br><br>Have eveting to test? (Testware necessary for test execution is created and/or completed, Sequencing the test cases into test procedures (low level test case), Test scripts,Is everything there to test?)|During test execution, test suites are run in accordance with the test execution schedule.<br><br>Are all test run? (test suit are run, compare and evaluate results)|Data  & expereince is collected.|
+
+
+[Back to content](#x)
+
+<a id="13"></a>
+
+## Tasks:
+
+|Task:| | | | | | |
+|:----|:----|:----|:----|:----|:----|:----|
+|Test planning|Test Monitoring and Test Control|Test Analysis|Test desing|Test implementation|Test execution|test completion|
+|Deciding on entry and exit criteria| | - Analyse the test basis appropriate to the test level| - Designing and prioritizing test cases and sets of test cases| - Developing and prioritizing test procedures, and, potentially, creating automated test scripts| - Recording the IDs and versions of the test item(s) or test object, test tool(s), and testware| - Checking whether all defect reports are closed,|
+|Evaluating the test estimate| |being considered| - Identifying necessary test data to support test conditions and test cases| - Creating test suites from the test procedures and (if any) automated test scripts| - Executing tests either manually or by using test execution tools| - Creating a test summary report to be communicated to stakeholders|
+|Planning: WHEN and HOW to test and deciding HOW  the test result will be evaluated.| | - Evaluating the test basis and test items to identify| - Designing the test environment an Identify any required infrastructure and tools|    - Test suit| - Comparing actual results with expected results| - Finalizing and archiving the test environment, the test data, the test infrastructure, and other testware for later reuse|
+| | |defects of various types| - Capturing bi-directional traceability between the basis, test conditions, and test cases|        - grouping  the test case in certain order| - Analyzing anomalies to establish their likely causes| - Handing over the testware to the maintenance teams, other project teams, and/or other stakeholders who could benefit from its use|
+| | | - Identifying features and sets of features to| | - Arranging the test suites within a test execution schedule in a way that results in efficient test execution| - Reporting defects based on the failures observed| - Analyzing lessons learned from the completed test activities to determine changes needed for future iterations, releases, and projects|
+| | |be tested (content to test)| | - Building the test environment (including, potentially, test harnesses, service virtualization, simulators, and other infrastructure items) and verifying that| - Logging the outcome Of test execution (e.g., pass, fail, blocked)| - Using the information gathered to improve test progress maturity|
+| | | - Define an prioritize test conditions for each| | - everything needed has been set up correctly| - Repeating test activities either as a result Of action taken for an anomaly, or as part of the| |
+| | |feature based on analysis of the test basis| | - Preparing test data and ensuring it is properly loaded in the test environment|planned testing| |
+| | | - Capturing bi-directional traceability between test| | - Verifying and updating bi-directional traceability between the test conditions, tst cases, test procedure, and test suites.| - Verifying and updating bi-directional traceability between the test basis, test conditions, test cases, test procedures, and test results| |
+
+[Back to content](#x)
+
+<a id="14"></a>
+
+## Work Product
+|WORK PRODUCT| | | | | | |
+|:----|:----|:----|:----|:----|:----|:----|
+|Test planning|Test Monitoring and Control|Test Analysis|Test desing|Test implementation|Test execution|test completion|
+|Test planning|TEST PROGRESS REPORTS|Defined and prioritized test conditions|Test cases and sets of test cases.|Test procedures and the sequencing of those test procedures.|Documentation of the status of individual test cases or test procedures (e.g., ready to run, pass, fail, blocked,deliberately skipped, etc.)|Test summary reports|
+|Test Plans|TEST SUMMARY REPORTS|Creation of test charters
+(A test charter provides the test conditions to cover during a time-boxed testing session)|Design and/or identification of the test data|Test suites.|Defect reports|Action items for improvement of subsequent projects or iterations|
+|Exit Criteria|Audience relevant report and report addressing project management concerns|Defects in the test basis|Identification of infrastructure and tools|A test execution schedule.|Documentation about which test item(s), test object(s), test tools and testware were involved in the  testing|Change requests or product backlog items, and|
+| | | |Design of the test environment|Service virtualization and automated test scripts.|Comparing actual results with expected results|Finalized testware|
+| | | | |Creation and verification of test data is properly loaded into  the test environment.| | |
+| | | | |Test conditions defined in test analysis maybe for the further refiened in test implementation| | |
+| | |Hight level of test cases|Hight level of test cases|LOWER level of test cases| | |
+| | | | | |Verifying and updating bi-directional traceability between the test basis, test conditions, test cases, test procedures and test results| |
+
+
+
+
+
+
+
+
+
+
+
+
+
  <a id="6"></a>
 
 # Comparing test activities:
@@ -111,8 +195,16 @@ There are other reason why system fail and can affect the operation of hardware 
 <a id="7"></a>
 
  ## Test activities of analysis and design
- 
- |Test activities|ANALYSIS|DESIGN|Implementation|
+
+
+
+[Back to content](#x)
+
+<a id="8"></a>
+
+## Test activities of analysis, design and implementation
+
+|Test activities|ANALYSIS|DESIGN|Implementation|
 |:----|:----|:----|:----|
 |Creating test suites| | |x|
 |Developing test procedures,| | |x|
@@ -125,14 +217,6 @@ There are other reason why system fail and can affect the operation of hardware 
 |Evaluating the test basis and test items to identify defects of various types|x| | |
 |Capturing bi-directional traceability between the test basis, test conditions, and test cases| |x| |
 |Capturing bi-directional traceability between each element of the test basis and the associated test conditions|x| | |
-
-
-[Back to content](#x)
-
- <a id="8"></a>
-
-## Test activities of analysis, design and implementation
-
 
  <a id="9"></a>
  
