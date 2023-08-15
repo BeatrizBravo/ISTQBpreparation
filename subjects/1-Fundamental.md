@@ -2,7 +2,9 @@
  <a id="x"></a>
 
 - [Introduction](#1)
+- [Typical Objetives of Testing](#200)
 - [Testing and debugging](#2)
+- [verification and validation](#202)
 - [Regression and retesting](#3)
 - [Testing Principle](#4)
 - [Entry Criteria and Exit Criteria](#5)
@@ -40,6 +42,34 @@ There are other reason why system fail and can affect the operation of hardware 
 - injury
 - death
 
+
+
+
+|TRUE|FALSE|
+|:----|:----|
+|Failures can be caused by environmental conditions such as radiation|A defect is produced as a result of system failure|
+|Defects, bugs and faults are the same thing|Failures can cause bugs|
+| |Faults always cause system failures|
+
+<br>
+
+[Back to content](#x)
+
+
+
+
+<a id="200"></a>
+
+# Typical Objetives of Testing
+
+(from most important to least)
+
+- **Prevent defects** by evaluating work products such as requirements, user stories, design, and code.
+- _Verify_ whether all specified requirements have been fulfilled.
+- _Validate_ if the test object works as users and other stakeholders expect Build confidence in the quality level.
+- Find defects and failures by reducing the level of risk of inadequate software quality.
+- Provide sufficient information to stakeholders to allow them to make informed decisions (regarding the level of quality)
+- Comply with contractual, legal, or regulatory requirements or standards.
 <br>
 
 [Back to content](#x)
@@ -50,24 +80,37 @@ There are other reason why system fail and can affect the operation of hardware 
 # Testing and debugging
 
 
-|testing |debugging|
-|:----|:----|
-|Identifies failures| Investigates the cause of a fault (root cause)|
-|Confirms whether a failure has been fixed| Fixes software if necessary|
-| |Checks the defect has been fixed|
-| |Steps through program code|
-|-- |-- |
-| by the tester |by the developer |
+| testing                                                                                                   | debugging                                                                                                    |
+|:----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
+| Identifies failures  (determine whether it satisfies the specified    requirements)      |  Investigates the cause of a fault (root cause)                                                              |
+| performed **before** debugging and focuses on verifying that the system meets the specified requirements. | performed **after** testing focuses on identifying and resolving defects or issues in a system or component. |
+| It involves designing and executing test cases to uncover defects or issues.                              | It involves analyzing and fixing defects by modifying code, data, or configurations.                         |
+| Confirms whether a failure has been fixed                                                                 |  Fixes software if necessary                                                                                 |
+|                                                                                                           | Checks the defect has been fixed                                                                             |
+|                                                                                                           | Steps through program code                                                                                   |
+|                                                                                                           |                                                                                                              |
+| --                                                                                                        | --                                                                                                           |
+| by the tester                                                                                             | by the developer                                                                                             |
 
 <br>
 
-|TRUE|FALSE|
-|:----|:----|
-|Failures can be caused by environmental conditions such as radiation|A defect is produced as a result of system failure|
-|Defects, bugs and faults are the same thing|Failures can cause bugs|
-| |Faults always cause system failures|
 
-<br>
+
+
+
+[Back to content](#x)
+
+<a id="202"></a>
+
+# verification and validation
+| Verification                                                                                                                                                                                | Validation                                                                                                                                                                                                           |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Focuses on checking whether the software meets specified requirements and operates correctly according to its design and intended use.                                                      | Focuses on evaluating the software to ensure that it satisfies the user's needs and expectations.                                                                                                                    |
+| to ensure compliance with standards and specifications                                                                                                                                      | to validate its behavior and functionality.                                                                                                                                                                          |
+| Performed throughout the SDLC to catch defects early and prevent them from propagating to later stages.                                                                                     | to validate its behavior and functionality.                                                                                                                                                                          |
+| Actities:                                                                                                                                                                                   | Actities:                                                                                                                                                                                                            |
+| Static testing      **[type of reviews](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/3-static-testing.md#type-of-review)** (reviews, walkthroughs, and inspections.) | Testing levels **[type of reviews](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/2-Life-cycles.md#testing-levels)**  (system testing, acceptance testing, and user acceptance testing.) |
+
 
 [Back to content](#x)
 
