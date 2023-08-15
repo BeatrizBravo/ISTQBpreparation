@@ -1,6 +1,7 @@
 **Content:**
  <a id="x"></a>
  - [Introduction](#1)
+ - [Static and Dynamic analysis](#10)
  - [Type of review](#2)
  - [Typical defects in static testing](#3)
  - [Review Technique](#4)
@@ -25,6 +26,11 @@
 >>* a piece of code 
 >>* a test plan
 >>* a test case
+
+
+
+<a id="10"></a>
+
 
 
 | Static                                   | Dynamic                                          |
