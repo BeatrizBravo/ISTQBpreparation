@@ -39,3 +39,10 @@
 |Directed (advide/instructins stakeholdes, business domain, etc)|nature of the system|
 |Regression-averse (reuse existing testware)|test objetives|
 |reactive (event occurring during t. execution -> response -->knowloge gained -> explorative testing|regulation, etc.|
+
+
+|Entry Criteria|Exit Criteria|
+|:----|:----|
+|PREREQUISITES/precondition that must be met **before test activities** can begin, such as **availability** of test basis, test plan, test environment, test data, test tools, other necessary resources.|CONDITIONS that **must be met** before test level or a set of test is declare completed, such as achievement of test objectives, planned tests have been executed, coverage (#unresolved defect is within agreed limit/estimated remaining defects is sufficiently low, quality, or budget|
+|Entry criteria help to ensure that testing is PLANNED, PREPARED, and READY to start, and that the test items are stable and testable|Exit criteria help to ensure that testing is COMPLETED, EVALUATED, and REPORTED, and that the test items meet the stakeholder expectations and requirements|
+|Agile: Definition of ready|Agile: definition of done|
