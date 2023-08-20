@@ -26,3 +26,16 @@
 | Manage the TEST STAKEHOLDERS, such as customers, users, developers, sponsors, etc., and ensure effective communication, collaboration, reporting, and expectation management                                |Record and evaluate TEST RESULTS and report any defects or deviations from expected behavior|
 | Manage the TEST PROCESS, such as planning, monitoring, controlling, evaluating, reporting, and improving the test activities and deliverables                                                               |Perform REGRESSION TESTING and RETESTING as needed after defect fixes or changes|
 | Manage the TEST RISKS and issues that may affect the test objectives, scope, schedule, quality, or resources                                                                                                |Support other test levels or types, such as integration testing, system testing, acceptance testing, performance testing, etc., as needed|
+
+
+|Test Strategy|Test Approach|
+|:----|:----|
+|**generalized** description of the test process|**tailors** the test strategy for a particular project or release. Help to select test techniques, levels and types and define test entry/exit criteria|
+|types:|about the context and factors:|
+|Analytical (some factor. Example Risk or requirement)|Risk|
+|Model-base (model/requirement of the product functinal or non-funct.)|safety|
+|Methodical (use predefined set of test/conditions Example taxonomy|available resouces and skills|
+|Process compliant (rules/standars)|technology|
+|Directed (advide/instructins stakeholdes, business domain, etc)|nature of the system|
+|Regression-averse (reuse existing testware)|test objetives|
+|reactive (event occurring during t. execution -> response -->knowloge gained -> explorative testing|regulation, etc.|
