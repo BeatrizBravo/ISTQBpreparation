@@ -21,6 +21,6 @@ Follow along with your book to go to the chapter your want to review.
  - ✅ [Chapter 1: The fundamentals of testing](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/1-Fundamental.md)
  - ✅ [Chapter 2: Life Cycles](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/2-Life-cycles.md)
  - ✅ [Chapter 3: Static testing](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/3-static-testing.md)
- - 🚧 [Chapter 4: Test disign techniques](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/4-test-disign-techniques.md)
+ - ✅ [Chapter 4: Test disign techniques](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/4-test-disign-techniques.md)
  - 🚧 [Chapter 5: Test Managment](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/5-test-managment.md)
  - 🚧 [Chapter6: ]()
