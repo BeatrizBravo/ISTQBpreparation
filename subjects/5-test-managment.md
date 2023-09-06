@@ -100,10 +100,10 @@ a factor taht could result in future negative consquences, usually expressed as 
 #### Level of Risks:
 Level of Risks = probability of the risk ocurring X impact if it did happen (manage by the manager)
 
-| Product Risk   | Project Risk                                                                                                              |
-|:---------------|:--------------------------------------------------------------------------------------------------------------------------|
-| A risk that affects the QUALITY or RELIABILITY of the software product. | A risk that affects the COST, SCHEDULE, or RESOURCES of the software project.                                             |                                        |
-| Examples: FUNCTIONALITY, PERFORMANCE, SECURITY, USABILITY, or COMPATIBILITY issues. | Examples: BUDGET, SCOPE, STAFFING, TECHNOLOGY, or STAKEHOLDER issues.                                                     |
-| The impact of product risk is mainly on the CUSTOMERS or END-USERS of the software product. | The impact of project risk is mainly on the DEVELOPERS or MANAGERS of the software project.                               |
-| Product risk can be identified and analyzed by using techniques such as REQUIREMENTS REVIEW, RISK-BASED TESTING, or EXPLORATORY TESTING. | Project risk can be identified and analyzed by using techniques such as RISK MANAGEMENT PLAN, RISK REGISTER o Matrix.     |
+| Product Risk   | Project Risk                                                                                                          |
+|:---------------|:----------------------------------------------------------------------------------------------------------------------|
+| A risk that affects the QUALITY or RELIABILITY of the software product. | A risk that affects the COST, SCHEDULE, or RESOURCES of the software project.                                         |                                        |
+| Examples: FUNCTIONALITY, PERFORMANCE, SECURITY, USABILITY, or COMPATIBILITY issues. | Examples: BUDGET, SCOPE, STAFFING, TECHNOLOGY, or STAKEHOLDER issues.                                                 |
+| The impact of product risk is mainly on the CUSTOMERS or END-USERS of the software product. | The impact of project risk is mainly on the DEVELOPERS or MANAGERS of the software project.                           |
+| Product risk can be identified and analyzed by using techniques such as REQUIREMENTS REVIEW, RISK-BASED TESTING, or EXPLORATORY TESTING. | Project risk can be identified and analyzed by using techniques such as RISK MANAGEMENT PLAN, RISK REGISTER o MATRIX. |
 
