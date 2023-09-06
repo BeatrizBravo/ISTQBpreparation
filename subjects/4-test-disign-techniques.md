@@ -128,6 +128,12 @@ NODE = Statement  (circles)<br>
 Branch = Decision (arrows)
 
 
+|Technique|Definition|Example|
+|:----|:----|:----|
+|Statement testing o Statement coverage|Execute all the statements in the code <br>**sc** =  min # of paths required for covering all the nodes/statements <br>(what's the min # test cases required for 100% statement coverage?)|If the code has 10 statements, design test cases that execute the 10 statements <br><br>For **nested** statements: <br><br>SC = 1+ Count of Else<br><br>For **un-nested** statements: <br><br>SC = 2 (when else are there) or <br>1 (when no else are there) <br><br>given flow chart: #StatementsExecuted /countAllTheStatementsInChart(noces-circles)|
+|Decision testing o branch coverage<br><br>100% DC guarantees 100% SC|Execute all the branches/arrow  in the code<br>**dc** =  min # of paths required for covering all the branches <br>(what's the min # test cases required for 100% statement coverage?)|If the code has an if-else, design test cases that execute both the if and the else<br>    <br><br>For **nested** decisions: <br><br>SC = count of IF+ 1<br><br>For **un-nested** decision: <br><br>DC = 2 (always irrespective of count of if|
+
+
 
 <a id="20"></a>
 

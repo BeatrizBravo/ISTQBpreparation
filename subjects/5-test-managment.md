@@ -107,3 +107,41 @@ Level of Risks = probability of the risk ocurring X impact if it did happen (man
 | The impact of product risk is mainly on the CUSTOMERS or END-USERS of the software product. | The impact of project risk is mainly on the DEVELOPERS or MANAGERS of the software project.                           |
 | Product risk can be identified and analyzed by using techniques such as REQUIREMENTS REVIEW, RISK-BASED TESTING, or EXPLORATORY TESTING. | Project risk can be identified and analyzed by using techniques such as RISK MANAGEMENT PLAN, RISK REGISTER o MATRIX. |
 
+[Back to content](#x)
+
+<a id="100"></a>
+
+# Questions
+
+|Questions| Answers                        | N. Page in the book |
+|:----|:-------------------------------|:--------------------|
+|What are the two types of risk that have to be considered in testing?| Product Risk  and Project Risk | 162                 |
+|Compare and contrast these 2 risk types.| [here](https://github.com/BeatrizBravo/ISTQBpreparation/blob/main/subjects/5-test-managment.md#risk)                       |                     |
+|How early in the Life Cycle can risk impact the testing approach?|                                |                     |
+|What does MISRA determine when the level of risk is understood?|                                |                     |
+|[Back to content](#x)|                                |                     |
+|Why is independent testing more effective at finding errors than simply allowing the developer and author to test their ow product?|                                | 164                 |
+|Name 2 benefits of independence.|                                |                     |
+|Which organisation provides de lowest level of independence, and which provides the highest?|                                |                     |
+|[Back to content](#x)|                                |                     |
+|Name and explain 5 approaches to the development of the test approach or test strategy.|                                | 168                 |
+|Name one of the standards referred to that dictate the test approach.|                                |                     |
+|Can discretion be used when defining a test approach testing?|                                |                     |
+|[Back to content](#x)|                                |                     |
+|What is the international standard for testing called?|                                | 174                 |
+|Identify the 15 sections of the test plan.|                                |                     |
+|What activities are contained within test planning?|                                |                     |
+|Detail 4 typical exit criteria|                                |                     |
+|[Back to content](#x)|                                |                     |
+|Name 4 common test metrics|                                | 185                 |
+|Name the 10 heading in the ISO 29119-3 Test summary report|                                |                     |
+|Identify 3 ways a test manager can control testing if there are more tests than there is time to complete them.|                                |                     |
+|[Back to content](#x)|                                |                     |
+|Identify 3 details that are usually included in a defect report.|                                | 186                 |
+|What is the name of the standard that includes an outline of a tst defect report?|                                |                     |
+|What is a test defect?|                                |                     |
+|[Back to content](#x)|                                |                     |
+|Define configuration management.|                                | 187                 |
+|What can be stored under configuration management?|                                |                     |
+|Why is it important to have effective configuration management?|                                |                     |
+|[Back to content](#x)|                                |                     |
