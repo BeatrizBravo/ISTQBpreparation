@@ -113,7 +113,7 @@ Level of Risks = probability of the risk ocurring X impact if it did happen (man
 
 # Questions
 
-||Questions|Answers|N. Page|
+|Questions|Answers|N. Page|
 |:----|:----|:----|
 |What are the two types of risk that have to be considered in testing?| product risk and project risk.|162|
 |Compare and contrast these 2 risk types.|Product risk refers to the risk associated with the quality of the software product being developed. It includes risks related to functionality, performance, usability, security, and other quality attributes. Product risks can impact the success of the project and the satisfaction of the end-users.<br>Project risk, on the other hand, refers to the risks associated with the project itself, such as schedule delays, budget overruns, resource constraints, and communication issues. Project risks can impact the overall project timeline, cost, and quality.| |
